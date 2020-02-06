@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="text/css" href="./static/css/style.css" rel="stylesheet">
+        <link type="text/css" href="./static/css/main.css" rel="stylesheet">
+        <script src="./static/lib/jquery-3.4.1.min.js"></script>
+        <script src="./static/lib/jquery-ui.min.js"></script>
+        <script src="./static/lib/vue.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        <script src="http://libs.baidu.com/jqueryui/1.8.22/jquery-ui.min.js "></script> -->
+        <script src="./static/js/main.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>monoliths的博客</h1>
+            <nav>
+                <div id="mainNav" class="nav-mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="mainList" class="nav-list">
+                    <li v-for="option in action"><a v-bind:href="option.link">{{option.text}}</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <ol id="app">
+                    <li><a></a></li>
+                </ol>
+            </section>
+            <aside>
+
+            </aside>
+        </main>
+        <footer>
+            <div id="back">
+                <a href="mailto: last.monoliths@gmil.com" >联系作者</a>
+                <a href="mailto: monoliths@sina.com">意见反馈</a>
+            </div>
+            <p>monoliths</p>
+        </footer>
+        <script src="./static/js/vue_load.js"></script>
+    </body>
+</html>

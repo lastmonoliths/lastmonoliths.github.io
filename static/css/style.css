@@ -1,0 +1,20 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+html,body {
+    font-size: 86.6%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+img {
+    display: block;
+}
+li {
+    list-style: none;
+}
